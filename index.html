@@ -411,6 +411,11 @@ html[data-lang="en"] .es{display:none !important;}
         <div class="appbar"><span class="back" onclick="go('s2')">←</span><div class="t"><span class="en">New report</span><span class="es">Nuevo reporte</span></div><div class="sub">1/4</div></div>
         <div class="content">
           <div class="steps"><span class="done"></span><span></span><span></span><span></span></div>
+          <div style="background:#EEF0F4;border-radius:8px;padding:7px 10px;margin-bottom:10px;display:flex;align-items:center;gap:8px;">
+            <span style="font-size:10px;font-weight:700;color:var(--purple);white-space:nowrap;">🇯🇲 <span class="en">JAM protocol</span><span class="es">Protocolo JAM</span></span>
+            <span style="flex:1;height:1px;background:#C7CDD6;"></span>
+            <span style="font-size:10px;color:#4A4E69;"><span style="color:var(--success);font-weight:700;">✓</span> <span class="en">Step 4 · Scene data</span><span class="es">Paso 4 · Datos de la escena</span></span>
+          </div>
           <div class="h-screen"><span class="en">We've secured the scene data</span><span class="es">Aseguramos los datos de la escena</span></div>
           <p class="p-screen"><span class="en">Captured automatically and sealed. You can't edit these — that protects you.</span><span class="es">Capturados automáticamente y sellados. No se pueden editar — eso te protege.</span></p>
           <div class="map"><span class="pin">📍</span></div>
@@ -441,6 +446,11 @@ html[data-lang="en"] .es{display:none !important;}
         <div class="appbar"><span class="back" onclick="go('s3')">←</span><div class="t"><span class="en">Accident details</span><span class="es">Datos del accidente</span></div><div class="sub">2/4</div></div>
         <div class="content">
           <div class="steps"><span class="done"></span><span class="done"></span><span></span><span></span></div>
+          <div style="background:#EEF0F4;border-radius:8px;padding:7px 10px;margin-bottom:10px;display:flex;align-items:center;gap:8px;">
+            <span style="font-size:10px;font-weight:700;color:var(--purple);white-space:nowrap;">🇯🇲 <span class="en">JAM protocol</span><span class="es">Protocolo JAM</span></span>
+            <span style="flex:1;height:1px;background:#C7CDD6;"></span>
+            <span style="font-size:10px;color:#4A4E69;"><span style="color:var(--success);font-weight:700;">✓</span> <span class="en">Step 3 · Driver info</span><span class="es">Paso 3 · Info del conductor</span> &nbsp;<span style="color:var(--success);font-weight:700;">✓</span> <span class="en">Step 4 · Scene data</span><span class="es">Paso 4 · Escena</span></span>
+          </div>
           <div class="card">
             <h3><span class="en">Your details</span><span class="es">Tus datos</span> <span class="badge b-ok" style="float:right;"><span class="en">Pre-filled</span><span class="es">Pre-llenados</span></span></h3>
             <div class="kv"><span>Andre Campbell · JM-4482913</span><b>3417 HK</b></div>
@@ -485,6 +495,11 @@ html[data-lang="en"] .es{display:none !important;}
         <div class="appbar"><span class="back" onclick="go('s4')">←</span><div class="t"><span class="en">Evidence</span><span class="es">Evidencia</span></div><div class="sub">3/4</div></div>
         <div class="content">
           <div class="steps"><span class="done"></span><span class="done"></span><span class="done"></span><span></span></div>
+          <div style="background:#EEF0F4;border-radius:8px;padding:7px 10px;margin-bottom:10px;display:flex;align-items:center;gap:8px;">
+            <span style="font-size:10px;font-weight:700;color:var(--purple);white-space:nowrap;">🇯🇲 <span class="en">JAM protocol</span><span class="es">Protocolo JAM</span></span>
+            <span style="flex:1;height:1px;background:#C7CDD6;"></span>
+            <span style="font-size:10px;color:#4A4E69;"><span style="color:var(--success);font-weight:700;">✓</span> <span class="en">Step 3</span><span class="es">Paso 3</span> &nbsp;<span style="color:var(--success);font-weight:700;">✓</span> <span class="en">Step 4 · Evidence</span><span class="es">Paso 4 · Evidencia</span> &nbsp;<span style="color:var(--warning);font-weight:700;">⏳</span> <span class="en">Step 5 · Notify insurer</span><span class="es">Paso 5 · Notificar aseg.</span></span>
+          </div>
           <div class="h-screen"><span class="en">Capture the evidence</span><span class="es">Captura la evidencia</span></div>
           <p class="p-screen"><span class="en">Follow the guide — before any vehicle moves.</span><span class="es">Sigue la guía — antes de que se mueva cualquier vehículo.</span></p>
           <div class="evgrid">
@@ -611,6 +626,23 @@ html[data-lang="en"] .es{display:none !important;}
             <div class="kv"><span><span class="en">Claim review</span><span class="es">Revisión del reclamo</span></span><span class="badge b-wait"><span class="en">In queue</span><span class="es">En cola</span></span></div>
             <div class="kv"><span><span class="en">Adjuster assignment</span><span class="es">Asignación de ajustador</span></span><span class="badge b-wait">&lt; 24 h</span></div>
           </div>
+
+          <!-- Police QR -->
+          <div class="card" style="border:1.5px dashed #C9B3E8;background:#FBF5FE;">
+            <h3 style="color:var(--purple);margin-bottom:4px;">👮 <span class="en">Is a police officer at the scene?</span><span class="es">¿Hay un policía en la escena?</span></h3>
+            <p style="font-size:12px;color:var(--slate);margin-bottom:10px;"><span class="en">Show them this QR — they join the case instantly, no account needed.</span><span class="es">Muéstrale este código — se une al caso al instante, sin cuenta.</span></p>
+            <div class="qr" style="width:110px;height:110px;margin:0 auto 10px;">
+              <div class="grid">
+                <div style="position:absolute;bottom:0;right:0;width:28px;height:28px;border:6px solid var(--navy);background:#fff;"></div>
+              </div>
+            </div>
+            <div style="text-align:center;font-size:10px;color:#93989F;margin-bottom:10px;"><b style="color:var(--navy);">PI-2026-004521</b> · <span class="en">expires in 2 h</span><span class="es">expira en 2 h</span></div>
+            <div style="display:flex;gap:8px;">
+              <button class="btn ghost" style="flex:1;font-size:12px;padding:8px;">📤 <span class="en">Share link</span><span class="es">Compartir link</span></button>
+              <button class="btn ghost" style="flex:1;font-size:12px;padding:8px;">💬 <span class="en">Send by WhatsApp</span><span class="es">Enviar por WhatsApp</span></button>
+            </div>
+          </div>
+
           <button class="btn" onclick="go('s9')"><span class="en">Track my claim →</span><span class="es">Seguir mi reclamo →</span></button>
         </div>
       </div></div>
@@ -715,10 +747,10 @@ html[data-lang="en"] .es{display:none !important;}
       <script>
         var ROLE_DATA = {
           insurer:  { email:"claims@islandmutual.jm",      hint:"🔐 MFA enabled · Insurer workspace",          dest:"s11" },
-          adjuster: { email:"d.reid@adjusters-jm.com",     hint:"🔐 MFA enabled · Adjuster workspace",         dest:"s15" },
-          shop:     { email:"ops@precisionautobody.jm",     hint:"🔐 MFA enabled · Repair shop workspace",      dest:"s16" },
-          police:   { email:"a.bennett@jcf.gov.jm",        hint:"🔐 MFA enabled · Police workspace — verified", dest:"s17" },
-          admin:    { email:"admin@platforminsurance.com",  hint:"🔐 MFA enabled · Platform admin",             dest:"s18" }
+          adjuster: { email:"d.reid@adjusters-jm.com",     hint:"🔐 MFA enabled · Adjuster workspace",         dest:"s12" },
+          shop:     { email:"ops@precisionautobody.jm",     hint:"🔐 MFA enabled · Repair shop workspace",      dest:"s13" },
+          police:   { email:"a.bennett@jcf.gov.jm",        hint:"🔐 MFA enabled · Police workspace — verified", dest:"s14" },
+          admin:    { email:"admin@platforminsurance.com",  hint:"🔐 MFA enabled · Platform admin",             dest:"s15" }
         };
         var _selRole = "insurer";
         document.addEventListener("DOMContentLoaded", function(){ selectRole("insurer"); });
@@ -749,10 +781,9 @@ html[data-lang="en"] .es{display:none !important;}
           <aside class="psb">
             <div class="brand"><div class="logo-pi">PI</div><b>Platform Insurance</b></div>
             <a id="s11-nav-claims" class="on" onclick="s11Nav('claims')">📥 <span class="en">Claims inbox</span><span class="es">Bandeja de reclamos</span></a>
-            <a>📄 <span class="en">All cases</span><span class="es">Todos los expedientes</span></a>
-            <a>👥 <span class="en">Adjusters</span><span class="es">Ajustadores</span></a>
-            <a>🔧 <span class="en">Repair network</span><span class="es">Red de talleres</span></a>
-            <a>📊 <span class="en">Reports</span><span class="es">Reportes</span></a>
+            <a id="s11-nav-adjusters" onclick="s11Nav('adjusters')">👥 <span class="en">Adjusters</span><span class="es">Ajustadores</span></a>
+            <a id="s11-nav-network" onclick="s11Nav('network')">🔧 <span class="en">Repair network</span><span class="es">Red de talleres</span></a>
+            <a id="s11-nav-reports" onclick="s11Nav('reports')">📊 <span class="en">Reports</span><span class="es">Reportes</span></a>
             <div class="role"><b>Island Mutual Insurance</b><span class="en">Role: Insurer · S. Whyte</span><span class="es">Rol: Aseguradora · S. Whyte</span>
               <div style="margin-top:8px;"><button onclick="go('s10')" style="background:transparent;border:1px solid #3A4A5E;color:#B9C0CC;font-size:10.5px;border-radius:6px;padding:4px 10px;cursor:pointer;width:100%;">⇄ <span class="en">Switch role</span><span class="es">Cambiar rol</span></button></div>
             </div>
@@ -822,6 +853,123 @@ html[data-lang="en"] .es{display:none !important;}
                 </table>
               </div>
               <p style="font-size:11.5px;color:#93989F;margin-top:10px;">💡 <span class="en">Click PI-2026-004521 to open the full case file.</span><span class="es">Haz clic en PI-2026-004521 para abrir el expediente completo.</span></p>
+            </div>
+
+            <!-- ═══ ADJUSTERS ═══ -->
+            <div id="s11-view-adjusters" style="display:none;">
+              <div class="crumb"><span class="en">Adjusters</span><span class="es">Ajustadores</span></div>
+              <h2><span class="en">Adjuster network</span><span class="es">Red de ajustadores</span></h2>
+              <div class="kpis" style="margin-bottom:14px;">
+                <div class="kpi"><div class="v">8</div><div class="l"><span class="en">Active adjusters</span><span class="es">Ajustadores activos</span></div></div>
+                <div class="kpi"><div class="v">5</div><div class="l"><span class="en">Cases unassigned</span><span class="es">Sin asignar</span></div><div class="d" style="color:var(--error);">⚠ SLA risk</div></div>
+                <div class="kpi"><div class="v">2.8</div><div class="l"><span class="en">Avg cases / adj.</span><span class="es">Prom. casos / ajust.</span></div></div>
+                <div class="kpi"><div class="v">94%</div><div class="l"><span class="en">Avg fraud confidence</span><span class="es">Confianza antifraude</span></div></div>
+              </div>
+              <div class="card" style="padding:0;overflow:hidden;margin-bottom:0;">
+                <table>
+                  <thead><tr>
+                    <th><span class="en">Adjuster</span><span class="es">Ajustador</span></th>
+                    <th><span class="en">Zone</span><span class="es">Zona</span></th>
+                    <th><span class="en">Active cases</span><span class="es">Casos activos</span></th>
+                    <th><span class="en">Avg closure</span><span class="es">Cierre prom.</span></th>
+                    <th><span class="en">Status</span><span class="es">Estado</span></th>
+                  </tr></thead>
+                  <tbody>
+                    <tr>
+                      <td><div style="display:flex;align-items:center;gap:8px;"><div style="width:30px;height:30px;border-radius:50%;background:var(--navy);color:#fff;display:flex;align-items:center;justify-content:center;font-family:Poppins,sans-serif;font-weight:600;font-size:11px;flex-shrink:0;">DR</div><div><b>Damion Reid</b><br><span style="font-size:10.5px;color:#93989F;">#ADJ-114</span></div></div></td>
+                      <td>Kingston 5–10</td><td><b>3</b></td><td>4.2 <span class="en">days</span><span class="es">días</span></td>
+                      <td><span class="badge b-ok"><span class="en">Available</span><span class="es">Disponible</span></span></td>
+                    </tr>
+                    <tr>
+                      <td><div style="display:flex;align-items:center;gap:8px;"><div style="width:30px;height:30px;border-radius:50%;background:#4A4E69;color:#fff;display:flex;align-items:center;justify-content:center;font-family:Poppins,sans-serif;font-weight:600;font-size:11px;flex-shrink:0;">MB</div><div><b>Marcus Brown</b><br><span style="font-size:10.5px;color:#93989F;">#ADJ-087</span></div></div></td>
+                      <td>Spanish Town</td><td><b>2</b></td><td>3.8 <span class="en">days</span><span class="es">días</span></td>
+                      <td><span class="badge b-ok"><span class="en">Available</span><span class="es">Disponible</span></span></td>
+                    </tr>
+                    <tr style="opacity:.7;">
+                      <td><div style="display:flex;align-items:center;gap:8px;"><div style="width:30px;height:30px;border-radius:50%;background:#4A4E69;color:#fff;display:flex;align-items:center;justify-content:center;font-family:Poppins,sans-serif;font-weight:600;font-size:11px;flex-shrink:0;">SC</div><div><b>Sandra Clarke</b><br><span style="font-size:10.5px;color:#93989F;">#ADJ-102</span></div></div></td>
+                      <td>Ocho Ríos</td><td><b>4</b></td><td>5.1 <span class="en">days</span><span class="es">días</span></td>
+                      <td><span class="badge b-wait"><span class="en">At capacity</span><span class="es">Al límite</span></span></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <!-- ═══ REPAIR NETWORK ═══ -->
+            <div id="s11-view-network" style="display:none;">
+              <div class="crumb"><span class="en">Repair network</span><span class="es">Red de talleres</span></div>
+              <h2><span class="en">Repair network</span><span class="es">Red de talleres</span></h2>
+              <div class="kpis" style="margin-bottom:14px;">
+                <div class="kpi"><div class="v">12</div><div class="l"><span class="en">Active shops</span><span class="es">Talleres activos</span></div></div>
+                <div class="kpi"><div class="v">3</div><div class="l"><span class="en">Repairs in progress</span><span class="es">Reparaciones activas</span></div></div>
+                <div class="kpi"><div class="v">4.7★</div><div class="l"><span class="en">Avg rating</span><span class="es">Calificación prom.</span></div></div>
+                <div class="kpi"><div class="v">5.2</div><div class="l"><span class="en">Avg days to close</span><span class="es">Días prom. cierre</span></div></div>
+              </div>
+              <div class="card" style="padding:0;overflow:hidden;margin-bottom:0;">
+                <table>
+                  <thead><tr>
+                    <th><span class="en">Shop</span><span class="es">Taller</span></th>
+                    <th><span class="en">Zone</span><span class="es">Zona</span></th>
+                    <th><span class="en">Active jobs</span><span class="es">Trabajos activos</span></th>
+                    <th><span class="en">Avg cost</span><span class="es">Costo prom.</span></th>
+                    <th><span class="en">Rating</span><span class="es">Calificación</span></th>
+                    <th><span class="en">Status</span><span class="es">Estado</span></th>
+                  </tr></thead>
+                  <tbody>
+                    <tr>
+                      <td><b>Precision Auto Body</b></td><td>Kingston 5</td><td>2</td><td>J$ 165,000</td>
+                      <td>★ 4.8</td><td><span class="badge b-ok"><span class="en">Active</span><span class="es">Activo</span></span></td>
+                    </tr>
+                    <tr>
+                      <td><b>Halfway Tree Motors</b></td><td>Kingston 10</td><td>1</td><td>J$ 198,000</td>
+                      <td>★ 4.5</td><td><span class="badge b-ok"><span class="en">Active</span><span class="es">Activo</span></span></td>
+                    </tr>
+                    <tr style="opacity:.7;">
+                      <td><b>Caribbean Auto Care</b></td><td>Portmore</td><td>0</td><td>J$ 142,000</td>
+                      <td>★ 4.3</td><td><span class="badge b-closed"><span class="en">Inactive</span><span class="es">Inactivo</span></span></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <!-- ═══ REPORTS ═══ -->
+            <div id="s11-view-reports" style="display:none;">
+              <div class="crumb"><span class="en">Reports</span><span class="es">Reportes</span></div>
+              <h2><span class="en">Reports</span><span class="es">Reportes</span></h2>
+              <div class="grid-2" style="margin-bottom:14px;">
+                <div class="card" style="margin-bottom:0;">
+                  <h3><span class="en">Monthly summary · Jul 2026</span><span class="es">Resumen mensual · Jul 2026</span></h3>
+                  <div class="kv"><span><span class="en">Claims received</span><span class="es">Reclamos recibidos</span></span><b>22</b></div>
+                  <div class="kv"><span><span class="en">Avg report time</span><span class="es">Tiempo prom. reporte</span></span><b>12 min</b></div>
+                  <div class="kv"><span><span class="en">Avg adjuster assignment</span><span class="es">Asignación prom.</span></span><b>18 h</b></div>
+                  <div class="kv"><span><span class="en">Cases closed</span><span class="es">Casos cerrados</span></span><b>6</b></div>
+                  <div class="kv"><span><span class="en">Fraud flags</span><span class="es">Alertas de fraude</span></span><b style="color:var(--error);">2</b></div>
+                  <div class="kv"><span><span class="en">Avg payout</span><span class="es">Pago promedio</span></span><b>J$ 148,300</b></div>
+                </div>
+                <div class="card" style="margin-bottom:0;">
+                  <h3><span class="en">Evidence quality</span><span class="es">Calidad de evidencia</span></h3>
+                  <div class="kv"><span><span class="en">Complete at submission</span><span class="es">Completa al envío</span></span><b style="color:var(--success);">96%</b></div>
+                  <div class="kv"><span><span class="en">GPS-verified photos</span><span class="es">Fotos verificadas GPS</span></span><b style="color:var(--success);">100%</b></div>
+                  <div class="kv"><span><span class="en">Both statements signed</span><span class="es">Ambas declaraciones firmadas</span></span><b>88%</b></div>
+                  <div class="kv"><span><span class="en">vs. paper process</span><span class="es">vs. proceso en papel</span></span><b style="color:var(--success);">+41 pts</b></div>
+                </div>
+              </div>
+              <div class="card" style="margin-bottom:0;padding:0;overflow:hidden;">
+                <table>
+                  <thead><tr>
+                    <th><span class="en">Report</span><span class="es">Reporte</span></th>
+                    <th><span class="en">Period</span><span class="es">Período</span></th>
+                    <th><span class="en">Generated</span><span class="es">Generado</span></th>
+                    <th></th>
+                  </tr></thead>
+                  <tbody>
+                    <tr><td><b><span class="en">Monthly operations · Jul 2026</span><span class="es">Operaciones mensuales · Jul 2026</span></b></td><td>Jul 2026</td><td>07 Jul 2026</td><td><button class="btn ghost" style="font-size:11px;padding:5px 10px;">📥 PDF</button></td></tr>
+                    <tr><td><b><span class="en">Monthly operations · Jun 2026</span><span class="es">Operaciones mensuales · Jun 2026</span></b></td><td>Jun 2026</td><td>01 Jul 2026</td><td><button class="btn ghost" style="font-size:11px;padding:5px 10px;">📥 PDF</button></td></tr>
+                    <tr style="opacity:.7;"><td><b><span class="en">Q2 2026 summary</span><span class="es">Resumen Q2 2026</span></b></td><td>Apr–Jun 2026</td><td>01 Jul 2026</td><td><button class="btn ghost" style="font-size:11px;padding:5px 10px;">📥 PDF</button></td></tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
 
             <!-- ═══ CASE FILE (sub-view) ═══ -->
@@ -950,17 +1098,47 @@ html[data-lang="en"] .es{display:none !important;}
                   <div style="margin-left:auto;text-align:right;flex-shrink:0;"><div style="font-family:Poppins,sans-serif;font-weight:700;font-size:20px;color:#CB6CE6;">J$ 182,400</div><div style="font-size:10.5px;color:#D8BCFA;"><span class="en">total estimated</span><span class="es">costo total estimado</span></div></div>
                 </div>
                 <div class="grid-2" style="margin-bottom:14px;">
-                  <div class="card" style="margin-bottom:0;padding:0;overflow:hidden;cursor:pointer;" onclick="s11Lb(0)">
-                    <div style="position:relative;height:120px;background:linear-gradient(135deg,#C9D2DF,#DDE3EC);display:flex;align-items:center;justify-content:center;">
-                      <svg width="140" height="80" viewBox="0 0 160 90"><rect x="20" y="40" width="120" height="36" rx="6" fill="#8899AA" opacity=".7"/><rect x="40" y="24" width="72" height="24" rx="6" fill="#8899AA" opacity=".6"/><circle cx="40" cy="78" r="10" fill="#556677"/><circle cx="120" cy="78" r="10" fill="#556677"/><ellipse cx="26" cy="52" rx="14" ry="10" fill="#EF4444" opacity=".45"/><ellipse cx="26" cy="52" rx="14" ry="10" fill="none" stroke="#EF4444" stroke-width="1.5" stroke-dasharray="3 2"/><rect x="2" y="26" width="52" height="15" rx="4" fill="#EF4444"/><text x="28" y="37" text-anchor="middle" font-size="8" fill="#fff" font-family="Inter,sans-serif" font-weight="600">FRONT LEFT</text></svg>
-                      <div style="position:absolute;top:8px;right:8px;background:rgba(13,27,42,.78);color:#fff;font-size:9px;padding:2px 7px;border-radius:10px;">🔒 3:47 PM</div>
-                      <div style="position:absolute;bottom:8px;left:8px;background:#EF4444;color:#fff;font-size:9.5px;font-weight:700;padding:2px 8px;border-radius:10px;">HIGH</div>
+                  <!-- 2x2 photo grid -->
+                  <div style="display:flex;flex-direction:column;gap:10px;">
+                    <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+                      <!-- Photo 1: Front left damage -->
+                      <div style="border-radius:10px;overflow:hidden;border:1px solid var(--border);cursor:pointer;background:#fff;" onclick="s11Lb(0)">
+                        <div style="position:relative;height:86px;background:linear-gradient(135deg,#C9D2DF,#DDE3EC);display:flex;align-items:center;justify-content:center;">
+                          <svg width="90" height="54" viewBox="0 0 160 90"><rect x="20" y="40" width="120" height="36" rx="6" fill="#8899AA" opacity=".7"/><rect x="40" y="24" width="72" height="24" rx="6" fill="#8899AA" opacity=".6"/><circle cx="40" cy="78" r="10" fill="#556677"/><circle cx="120" cy="78" r="10" fill="#556677"/><ellipse cx="26" cy="52" rx="14" ry="10" fill="#EF4444" opacity=".45"/></svg>
+                          <div style="position:absolute;top:5px;right:5px;background:rgba(13,27,42,.78);color:#fff;font-size:8px;padding:1px 5px;border-radius:8px;">🔒 3:47</div>
+                          <div style="position:absolute;bottom:5px;left:5px;background:#EF4444;color:#fff;font-size:8.5px;font-weight:700;padding:1px 6px;border-radius:8px;">HIGH</div>
+                        </div>
+                        <div style="padding:6px 8px;"><div style="font-size:10.5px;font-weight:600;color:var(--navy);"><span class="en">Front bumper + fender</span><span class="es">Bumper + guardafango</span></div><div style="font-size:10px;color:var(--purple);font-weight:600;">AI ✓ · J$ 122,900</div></div>
+                      </div>
+                      <!-- Photo 2: Rear damage B -->
+                      <div style="border-radius:10px;overflow:hidden;border:1px solid var(--border);cursor:pointer;background:#fff;" onclick="s11Lb(1)">
+                        <div style="position:relative;height:86px;background:linear-gradient(135deg,#D2D9E0,#C4CDD8);display:flex;align-items:center;justify-content:center;">
+                          <svg width="90" height="54" viewBox="0 0 160 90"><rect x="20" y="40" width="120" height="36" rx="6" fill="#7788AA" opacity=".7"/><rect x="40" y="24" width="72" height="24" rx="6" fill="#7788AA" opacity=".6"/><circle cx="40" cy="78" r="10" fill="#445566"/><circle cx="120" cy="78" r="10" fill="#445566"/><ellipse cx="134" cy="56" rx="12" ry="8" fill="#F59E0B" opacity=".5"/></svg>
+                          <div style="position:absolute;top:5px;right:5px;background:rgba(13,27,42,.78);color:#fff;font-size:8px;padding:1px 5px;border-radius:8px;">🔒 3:48</div>
+                          <div style="position:absolute;bottom:5px;left:5px;background:#F59E0B;color:#fff;font-size:8.5px;font-weight:700;padding:1px 6px;border-radius:8px;">MED</div>
+                        </div>
+                        <div style="padding:6px 8px;"><div style="font-size:10.5px;font-weight:600;color:var(--navy);"><span class="en">Rear bumper · Veh. B</span><span class="es">Bumper trasero · Veh. B</span></div><div style="font-size:10px;color:var(--purple);font-weight:600;">AI ✓ · J$ 38,400</div></div>
+                      </div>
+                      <!-- Photo 3: Scene -->
+                      <div style="border-radius:10px;overflow:hidden;border:1px solid var(--border);cursor:pointer;background:#fff;" onclick="s11Lb(2)">
+                        <div style="position:relative;height:86px;background:linear-gradient(135deg,#E4E9F0,#EDF1F6);display:flex;align-items:center;justify-content:center;">
+                          <svg width="90" height="54" viewBox="0 0 160 90"><line x1="0" y1="60" x2="160" y2="60" stroke="#8899AA" stroke-width="8"/><rect x="10" y="30" width="50" height="32" rx="4" fill="#8899AA" opacity=".6"/><rect x="95" y="20" width="55" height="42" rx="4" fill="#7788AA" opacity=".5"/><line x1="80" y1="0" x2="80" y2="90" stroke="#C7CDD6" stroke-width="1" stroke-dasharray="4 3"/></svg>
+                          <div style="position:absolute;top:5px;right:5px;background:rgba(13,27,42,.78);color:#fff;font-size:8px;padding:1px 5px;border-radius:8px;">🔒 3:49</div>
+                          <div style="position:absolute;bottom:5px;left:5px;background:#4A4E69;color:#fff;font-size:8.5px;font-weight:700;padding:1px 6px;border-radius:8px;"><span class="en">SCENE</span><span class="es">ESCENA</span></div>
+                        </div>
+                        <div style="padding:6px 8px;"><div style="font-size:10.5px;font-weight:600;color:var(--navy);"><span class="en">Scene · Constant Spring Rd</span><span class="es">Escena · Constant Spring Rd</span></div><div style="font-size:10px;color:#93989F;">GPS verified</div></div>
+                      </div>
+                      <!-- Photo 4: Plates -->
+                      <div style="border-radius:10px;overflow:hidden;border:1px solid var(--border);cursor:pointer;background:#fff;" onclick="s11Lb(3)">
+                        <div style="position:relative;height:86px;background:linear-gradient(135deg,#E8EBF0,#DDE1E8);display:flex;align-items:center;justify-content:center;">
+                          <svg width="90" height="54" viewBox="0 0 160 90"><rect x="30" y="28" width="100" height="34" rx="5" fill="#fff" stroke="#8899AA" stroke-width="2"/><text x="80" y="51" text-anchor="middle" font-size="16" fill="#1A2333" font-family="Inter,sans-serif" font-weight="700">3417 HK</text></svg>
+                          <div style="position:absolute;top:5px;right:5px;background:rgba(13,27,42,.78);color:#fff;font-size:8px;padding:1px 5px;border-radius:8px;">🔒 3:50</div>
+                          <div style="position:absolute;bottom:5px;left:5px;background:#15803D;color:#fff;font-size:8.5px;font-weight:700;padding:1px 6px;border-radius:8px;"><span class="en">MATCH</span><span class="es">COINCIDE</span></div>
+                        </div>
+                        <div style="padding:6px 8px;"><div style="font-size:10.5px;font-weight:600;color:var(--navy);"><span class="en">Plates · 3417 HK & 9026 FD</span><span class="es">Placas · 3417 HK y 9026 FD</span></div><div style="font-size:10px;color:#15803D;font-weight:600;"><span class="en">Registry match ✓</span><span class="es">Coincide con registro ✓</span></div></div>
+                      </div>
                     </div>
-                    <div style="padding:10px 12px;">
-                      <div style="font-size:12px;font-weight:600;color:var(--navy);margin-bottom:6px;"><span class="en">Front bumper + left fender</span><span class="es">Bumper + guardafango izq.</span></div>
-                      <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:7px;"><span style="background:#FEE2E2;color:#991B1B;font-size:10px;font-weight:600;padding:2px 8px;border-radius:10px;">● <span class="en">Severe</span><span class="es">Severo</span></span><span style="background:#F3EBFB;color:#6D28D9;font-size:10px;font-weight:600;padding:2px 8px;border-radius:10px;">AI ✓</span><span style="background:#E9F9EF;color:#15803D;font-size:10px;font-weight:600;padding:2px 8px;border-radius:10px;"><span class="en">Consistent</span><span class="es">Consistente</span></span></div>
-                      <div style="display:flex;justify-content:space-between;font-size:11.5px;border-top:1px solid #EEF0F4;padding-top:7px;"><span><span class="en">Est. repair</span><span class="es">Reparación est.</span></span><b>J$ 122,900</b></div>
-                    </div>
+                    <div style="font-size:11px;color:#93989F;text-align:center;">+ 8 <span class="en">additional sealed files (video, audio, docs)</span><span class="es">archivos sellados adicionales (video, audio, docs)</span></div>
                   </div>
                   <div class="card" style="margin-bottom:0;background:#F0FDF4;border-color:#BBF7D0;">
                     <h3 style="color:#15803D;margin-bottom:10px;">🛡 <span class="en">Fraud consistency check</span><span class="es">Verificación antifraude</span></h3>
@@ -1061,7 +1239,32 @@ html[data-lang="en"] .es{display:none !important;}
           document.getElementById("s11-list").style.display="block";
           document.getElementById("s11-url").textContent="🔒 portal.platforminsurance.com/claims";
         }
-        function s11Nav(v){ s11BackToList(); }
+        function s11Nav(v){
+          var views = ["adjusters","network","reports"];
+          // Hide all extra views
+          views.forEach(function(id){
+            var el = document.getElementById("s11-view-"+id);
+            if(el) el.style.display = "none";
+          });
+          // Update sidebar active state
+          ["claims","adjusters","network","reports"].forEach(function(id){
+            var nav = document.getElementById("s11-nav-"+id);
+            if(nav) nav.classList.toggle("on", id===v);
+          });
+          if(v === "claims"){
+            s11BackToList();
+          } else {
+            // Hide claims views
+            document.getElementById("s11-list").style.display = "none";
+            document.getElementById("s11-case").style.display = "none";
+            // Show the requested view
+            var target = document.getElementById("s11-view-"+v);
+            if(target) target.style.display = "block";
+            // Update URL
+            var urls = {allcases:"all-cases", adjusters:"adjusters", network:"repair-network", reports:"reports"};
+            document.getElementById("s11-url").textContent = "🔒 portal.platforminsurance.com/" + (urls[v]||v);
+          }
+        }
         function s11Tab(id,el){
           ["overview","evidence","statements","audit"].forEach(function(t){
             document.getElementById("s11-t-"+t).style.display=t===id?"block":"none";
@@ -1121,30 +1324,30 @@ html[data-lang="en"] .es{display:none !important;}
 
 <div class="screen" id="s12">
       <div class="stage-note">
-        <span class="en"><b>Screen 13 · Phase 2 preview.</b> Adjuster workspace — 3 sections matching the real workflow: case list, quotes to approve, and inspection reports.</span>
-        <span class="es"><b>Pantalla 15 · Vista previa Fase 2.</b> Espacio del ajustador — 3 secciones que reflejan el flujo real: lista de casos, cotizaciones a aprobar e informes de inspección.</span>
+        <span class="en"><b>Screen 12 · Phase 2 preview.</b> Adjuster workspace — 3 sections matching the real workflow: case list, quotes to approve, and inspection reports.</span>
+        <span class="es"><b>Pantalla 12 · Vista previa Fase 2.</b> Espacio del ajustador — 3 secciones que reflejan el flujo real: lista de casos, cotizaciones a aprobar e informes de inspección.</span>
       </div>
       <div class="pframe">
         <div class="ribbon"><span class="en">PHASE 2</span><span class="es">FASE 2</span></div>
-        <div class="bar"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="url" id="s15-url">🔒 portal.platforminsurance.com/adjuster/cases</div></div>
+        <div class="bar"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="url" id="s12-url">🔒 portal.platforminsurance.com/adjuster/cases</div></div>
         <div class="portal">
           <aside class="psb">
             <div class="brand"><div class="logo-pi">PI</div><b>Platform Insurance</b></div>
-            <a id="s15-nav-cases"   class="on" onclick="s15Nav('cases')">🧾 <span class="en">My cases</span><span class="es">Mis casos</span> <span id="s15-badge-cases" style="margin-left:auto;background:#EF4444;color:#fff;font-size:10px;font-weight:700;padding:1px 7px;border-radius:10px;">1</span></a>
-            <a id="s15-nav-quotes"            onclick="s15Nav('quotes')">💰 <span class="en">Quotes</span><span class="es">Cotizaciones</span> <span id="s15-badge-quotes" style="margin-left:auto;background:var(--warning);color:#fff;font-size:10px;font-weight:700;padding:1px 7px;border-radius:10px;">1</span></a>
-            <a id="s15-nav-reports"           onclick="s15Nav('reports')">📋 <span class="en">Reports</span><span class="es">Informes</span></a>
+            <a id="s12-nav-cases"   class="on" onclick="s12Nav('cases')">🧾 <span class="en">My cases</span><span class="es">Mis casos</span> <span id="s12-badge-cases" style="margin-left:auto;background:#EF4444;color:#fff;font-size:10px;font-weight:700;padding:1px 7px;border-radius:10px;">1</span></a>
+            <a id="s12-nav-quotes"            onclick="s12Nav('quotes')">💰 <span class="en">Quotes</span><span class="es">Cotizaciones</span> <span id="s12-badge-quotes" style="margin-left:auto;background:var(--warning);color:#fff;font-size:10px;font-weight:700;padding:1px 7px;border-radius:10px;">1</span></a>
+            <a id="s12-nav-reports"           onclick="s12Nav('reports')">📋 <span class="en">Reports</span><span class="es">Informes</span></a>
             <div class="role"><b>Damion Reid · #ADJ-114</b><span class="en">Role: Adjuster</span><span class="es">Rol: Ajustador</span><div style="margin-top:8px;"><button onclick="go('s10')" style="background:transparent;border:1px solid #3A4A5E;color:#B9C0CC;font-size:10.5px;border-radius:6px;padding:4px 10px;cursor:pointer;width:100%;">⇄ <span class="en">Switch role</span><span class="es">Cambiar rol</span></button></div></div>
           </aside>
 
           <div class="pmain">
 
             <!-- ═══ MY CASES ═══ -->
-            <div id="s15-view-cases">
+            <div id="s12-view-cases">
               <div class="crumb"><span class="en">My cases</span><span class="es">Mis casos</span></div>
               <h2><span class="en">My cases</span><span class="es">Mis casos</span></h2>
 
               <!-- Cases list -->
-              <div id="s15-cases-list">
+              <div id="s12-cases-list">
                 <div class="card" style="margin-bottom:14px;padding:0;overflow:hidden;">
                   <table>
                     <thead><tr>
@@ -1156,7 +1359,7 @@ html[data-lang="en"] .es{display:none !important;}
                       <th><span class="en">Status</span><span class="es">Estado</span></th>
                     </tr></thead>
                     <tbody>
-                      <tr style="cursor:pointer;background:#FBF5FE;" onclick="s15OpenCase()">
+                      <tr style="cursor:pointer;background:#FBF5FE;" onclick="s12OpenCase()">
                         <td><b style="color:var(--purple);">PI-2026-004521</b></td>
                         <td>Corolla 2019 · 3417 HK</td>
                         <td><span class="en">Front-left · fender + bumper</span><span class="es">Frontal izq. · guardafango + bumper</span></td>
@@ -1193,9 +1396,9 @@ html[data-lang="en"] .es{display:none !important;}
               </div>
 
               <!-- Case detail (opens on row click) -->
-              <div id="s15-case-detail" style="display:none;">
+              <div id="s12-case-detail" style="display:none;">
                 <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px;">
-                  <button onclick="s15BackToList()" style="background:transparent;border:none;color:var(--purple);font-size:13px;font-weight:600;cursor:pointer;">← <span class="en">All cases</span><span class="es">Todos los casos</span></button>
+                  <button onclick="s12BackToList()" style="background:transparent;border:none;color:var(--purple);font-size:13px;font-weight:600;cursor:pointer;">← <span class="en">All cases</span><span class="es">Todos los casos</span></button>
                   <span style="color:#C7CDD6;">·</span>
                   <span style="font-size:13px;color:var(--slate);">PI-2026-004521</span>
                 </div>
@@ -1205,9 +1408,9 @@ html[data-lang="en"] .es{display:none !important;}
                   <div class="card" style="margin-bottom:0;">
                     <h3><span class="en">Evidence & damage analysis</span><span class="es">Evidencia y análisis de daños</span> <span style="float:right;font-size:10px;background:#F3EBFB;color:var(--purple);font-weight:700;padding:2px 8px;border-radius:10px;">🤖 Snnapi</span></h3>
                     <div class="evrow" style="margin-bottom:12px;">
-                      <div class="ph" onclick="s15Lb(0)" style="cursor:pointer;"><span class="seal">🔒 GPS</span><span><span class="en">Front-left</span><span class="es">Frontal izq.</span></span></div>
-                      <div class="ph" onclick="s15Lb(1)" style="cursor:pointer;"><span class="seal">🔒 GPS</span><span><span class="en">Bumper</span><span class="es">Bumper</span></span></div>
-                      <div class="ph" onclick="s15Lb(2)" style="cursor:pointer;"><span class="seal">🔒 GPS</span><span><span class="en">Scene</span><span class="es">Escena</span></span></div>
+                      <div class="ph" onclick="s12Lb(0)" style="cursor:pointer;"><span class="seal">🔒 GPS</span><span><span class="en">Front-left</span><span class="es">Frontal izq.</span></span></div>
+                      <div class="ph" onclick="s12Lb(1)" style="cursor:pointer;"><span class="seal">🔒 GPS</span><span><span class="en">Bumper</span><span class="es">Bumper</span></span></div>
+                      <div class="ph" onclick="s12Lb(2)" style="cursor:pointer;"><span class="seal">🔒 GPS</span><span><span class="en">Scene</span><span class="es">Escena</span></span></div>
                     </div>
                     <!-- Damage map -->
                     <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:5px;margin-bottom:12px;text-align:center;font-size:10px;">
@@ -1219,9 +1422,9 @@ html[data-lang="en"] .es{display:none !important;}
                     <div class="kv"><span><span class="en">Fraud check</span><span class="es">Verificación antifraude</span></span><b><span class="badge b-ok">✓ 94% <span class="en">confidence</span><span class="es">confianza</span></span></b></div>
                     <div style="height:10px;"></div>
                     <!-- Report generator -->
-                    <div id="s15-rpt-idle"><button class="btn ghost block" onclick="s15GenReport()">📋 <span class="en">Generate inspection report</span><span class="es">Generar informe de inspección</span></button></div>
-                    <div id="s15-rpt-loading" style="display:none;"><div style="background:#F8F9FB;border:1px solid var(--border);border-radius:10px;padding:12px;text-align:center;"><span id="s15-rpt-progress" style="font-size:12px;color:var(--purple);font-weight:600;"></span></div></div>
-                    <div id="s15-rpt-done" style="display:none;"><div style="background:#E9F9EF;border:1px solid #B7E7C7;border-radius:10px;padding:11px 13px;"><b style="color:#15803D;font-size:12px;">✅ <span class="en">Report generated · ADJ-114-PI2026-004521.pdf</span><span class="es">Informe generado · ADJ-114-PI2026-004521.pdf</span></b><div style="margin-top:7px;display:flex;gap:7px;"><button class="btn ghost" style="font-size:11px;padding:5px 10px;color:#15803D;border-color:#86EFAC;" onclick="s15Nav('reports')">📄 <span class="en">View</span><span class="es">Ver</span></button><button class="btn ghost" style="font-size:11px;padding:5px 10px;">📤 <span class="en">Share</span><span class="es">Compartir</span></button></div></div></div>
+                    <div id="s12-rpt-idle"><button class="btn ghost block" onclick="s12GenReport()">📋 <span class="en">Generate inspection report</span><span class="es">Generar informe de inspección</span></button></div>
+                    <div id="s12-rpt-loading" style="display:none;"><div style="background:#F8F9FB;border:1px solid var(--border);border-radius:10px;padding:12px;text-align:center;"><span id="s12-rpt-progress" style="font-size:12px;color:var(--purple);font-weight:600;"></span></div></div>
+                    <div id="s12-rpt-done" style="display:none;"><div style="background:#E9F9EF;border:1px solid #B7E7C7;border-radius:10px;padding:11px 13px;"><b style="color:#15803D;font-size:12px;">✅ <span class="en">Report generated · ADJ-114-PI2026-004521.pdf</span><span class="es">Informe generado · ADJ-114-PI2026-004521.pdf</span></b><div style="margin-top:7px;display:flex;gap:7px;"><button class="btn ghost" style="font-size:11px;padding:5px 10px;color:#15803D;border-color:#86EFAC;" onclick="s12Nav('reports')">📄 <span class="en">View</span><span class="es">Ver</span></button><button class="btn ghost" style="font-size:11px;padding:5px 10px;">📤 <span class="en">Share</span><span class="es">Compartir</span></button></div></div></div>
                   </div>
 
                   <!-- Quotes + approve/reject -->
@@ -1230,75 +1433,77 @@ html[data-lang="en"] .es{display:none !important;}
                     <table style="margin-bottom:12px;">
                       <thead><tr><th><span class="en">Shop</span><span class="es">Taller</span></th><th><span class="en">Total</span><span class="es">Total</span></th><th><span class="en">Days</span><span class="es">Días</span></th><th></th></tr></thead>
                       <tbody>
-                        <tr id="s15-row-prec" style="cursor:pointer;background:#FBF5FE;" onclick="s15SelectShop('prec')">
+                        <tr id="s12-row-prec" style="cursor:pointer;background:#FBF5FE;" onclick="s12SelectShop('prec')">
                           <td><b>Precision Auto Body</b><br><span style="font-size:10px;color:#93989F;">Kingston 5 · ★ 4.8</span></td>
                           <td><b>J$ 182,400</b></td><td>6</td>
                           <td><span class="badge b-new"><span class="en">Recommended</span><span class="es">Recomendada</span></span></td>
                         </tr>
-                        <tr id="s15-row-half" style="cursor:pointer;" onclick="s15SelectShop('half')">
+                        <tr id="s12-row-half" style="cursor:pointer;" onclick="s12SelectShop('half')">
                           <td>Halfway Tree Motors<br><span style="font-size:10px;color:#93989F;">Kingston 10 · ★ 4.5</span></td>
                           <td>J$ 214,900</td><td>5</td><td></td>
                         </tr>
                       </tbody>
                     </table>
 
-                    <div id="s15-quote-actions"><div style="display:flex;gap:8px;">
-                      <button class="btn cta" style="flex:1;" onclick="s15Approve()">✓ <span class="en">Approve J$ 182,400</span><span class="es">Aprobar J$ 182,400</span></button>
-                      <button class="btn ghost" style="border-color:#EF4444;color:#EF4444;" onclick="s15Reject()"><span class="en">Reject</span><span class="es">Rechazar</span></button>
+                    <div id="s12-quote-actions"><div style="display:flex;gap:8px;">
+                      <button class="btn cta" style="flex:1;" onclick="s12Approve()">✓ <span class="en">Approve J$ 182,400</span><span class="es">Aprobar J$ 182,400</span></button>
+                      <button class="btn ghost" style="border-color:#EF4444;color:#EF4444;" onclick="s12Reject()"><span class="en">Reject</span><span class="es">Rechazar</span></button>
                     </div></div>
 
-                    <div id="s15-approve-confirm" style="display:none;"><div style="background:#F8F9FB;border:1px solid var(--border);border-radius:10px;padding:12px;"><p style="font-size:12px;margin-bottom:8px;"><b><span class="en">Confirm approval</span><span class="es">Confirmar aprobación</span></b><br><span class="en">Precision Auto Body · J$ 182,400 · 6 days</span><span class="es">Precision Auto Body · J$ 182,400 · 6 días</span></p><div style="display:flex;gap:8px;"><button class="btn cta" style="flex:1;font-size:12px;padding:9px;" onclick="s15ConfirmApprove()">✓ <span class="en">Confirm</span><span class="es">Confirmar</span></button><button class="btn ghost" style="font-size:12px;padding:9px;" onclick="s15CancelAction()"><span class="en">Cancel</span><span class="es">Cancelar</span></button></div></div></div>
+                    <div id="s12-approve-confirm" style="display:none;"><div style="background:#F8F9FB;border:1px solid var(--border);border-radius:10px;padding:12px;"><p style="font-size:12px;margin-bottom:8px;"><b><span class="en">Confirm approval</span><span class="es">Confirmar aprobación</span></b><br><span class="en">Precision Auto Body · J$ 182,400 · 6 days</span><span class="es">Precision Auto Body · J$ 182,400 · 6 días</span></p><div style="display:flex;gap:8px;"><button class="btn cta" style="flex:1;font-size:12px;padding:9px;" onclick="s12ConfirmApprove()">✓ <span class="en">Confirm</span><span class="es">Confirmar</span></button><button class="btn ghost" style="font-size:12px;padding:9px;" onclick="s12CancelAction()"><span class="en">Cancel</span><span class="es">Cancelar</span></button></div></div></div>
 
-                    <div id="s15-approved" style="display:none;"><div style="background:#E9F9EF;border:1px solid #B7E7C7;border-radius:10px;padding:11px 13px;"><b style="color:#15803D;">✅ <span class="en">Approved · J$ 182,400</span><span class="es">Aprobada · J$ 182,400</span></b><br><span style="font-size:11.5px;color:#166534;"><span class="en">Precision Auto Body authorized. Repair order sent.</span><span class="es">Precision Auto Body autorizado. Orden enviada.</span></span><div style="margin-top:8px;background:var(--navy);border-radius:8px;padding:9px 11px;display:flex;gap:9px;align-items:flex-start;"><div style="width:22px;height:22px;border-radius:6px;background:#25D366;display:flex;align-items:center;justify-content:center;font-size:11px;flex-shrink:0;">💬</div><span style="font-size:10.5px;color:#DDE2EA;"><b style="color:#fff;">WhatsApp → Andre:</b> <span class="en">Repair approved ✅ Precision Auto Body will contact you within 24h.</span><span class="es">Reparación aprobada ✅ Precision Auto Body te contactará en 24h.</span></span></div></div></div>
+                    <div id="s12-approved" style="display:none;"><div style="background:#E9F9EF;border:1px solid #B7E7C7;border-radius:10px;padding:11px 13px;"><b style="color:#15803D;">✅ <span class="en">Approved · J$ 182,400</span><span class="es">Aprobada · J$ 182,400</span></b><br><span style="font-size:11.5px;color:#166534;"><span class="en">Precision Auto Body authorized. Repair order sent.</span><span class="es">Precision Auto Body autorizado. Orden enviada.</span></span><div style="margin-top:8px;background:var(--navy);border-radius:8px;padding:9px 11px;display:flex;gap:9px;align-items:flex-start;"><div style="width:22px;height:22px;border-radius:6px;background:#25D366;display:flex;align-items:center;justify-content:center;font-size:11px;flex-shrink:0;">💬</div><span style="font-size:10.5px;color:#DDE2EA;"><b style="color:#fff;">WhatsApp → Andre:</b> <span class="en">Repair approved ✅ Precision Auto Body will contact you within 24h.</span><span class="es">Reparación aprobada ✅ Precision Auto Body te contactará en 24h.</span></span></div></div></div>
 
-                    <div id="s15-reject-form" style="display:none;"><p style="font-size:12px;font-weight:600;color:var(--navy);margin-bottom:8px;"><span class="en">Reason for rejection</span><span class="es">Motivo del rechazo</span></p><div style="display:flex;flex-direction:column;gap:6px;margin-bottom:10px;"><label style="font-size:12px;display:flex;gap:8px;cursor:pointer;align-items:center;"><input type="radio" name="s15rej" value="price"> <span class="en">Price exceeds approved limit</span><span class="es">Precio supera el límite aprobado</span></label><label style="font-size:12px;display:flex;gap:8px;cursor:pointer;align-items:center;"><input type="radio" name="s15rej" value="scope"> <span class="en">Scope not aligned with damage</span><span class="es">Alcance no alineado con el daño</span></label><label style="font-size:12px;display:flex;gap:8px;cursor:pointer;align-items:center;"><input type="radio" name="s15rej" value="shop"> <span class="en">Shop not in authorized network</span><span class="es">Taller fuera de la red autorizada</span></label></div><div style="display:flex;gap:8px;"><button class="btn" style="flex:1;background:#EF4444;font-size:12px;padding:9px;" onclick="s15ConfirmReject()"><span class="en">Send rejection</span><span class="es">Enviar rechazo</span></button><button class="btn ghost" style="font-size:12px;padding:9px;" onclick="s15CancelAction()"><span class="en">Cancel</span><span class="es">Cancelar</span></button></div></div>
+                    <div id="s12-reject-form" style="display:none;"><p style="font-size:12px;font-weight:600;color:var(--navy);margin-bottom:8px;"><span class="en">Reason for rejection</span><span class="es">Motivo del rechazo</span></p><div style="display:flex;flex-direction:column;gap:6px;margin-bottom:10px;"><label style="font-size:12px;display:flex;gap:8px;cursor:pointer;align-items:center;"><input type="radio" name="s12rej" value="price"> <span class="en">Price exceeds approved limit</span><span class="es">Precio supera el límite aprobado</span></label><label style="font-size:12px;display:flex;gap:8px;cursor:pointer;align-items:center;"><input type="radio" name="s12rej" value="scope"> <span class="en">Scope not aligned with damage</span><span class="es">Alcance no alineado con el daño</span></label><label style="font-size:12px;display:flex;gap:8px;cursor:pointer;align-items:center;"><input type="radio" name="s12rej" value="shop"> <span class="en">Shop not in authorized network</span><span class="es">Taller fuera de la red autorizada</span></label></div><div style="display:flex;gap:8px;"><button class="btn" style="flex:1;background:#EF4444;font-size:12px;padding:9px;" onclick="s12ConfirmReject()"><span class="en">Send rejection</span><span class="es">Enviar rechazo</span></button><button class="btn ghost" style="font-size:12px;padding:9px;" onclick="s12CancelAction()"><span class="en">Cancel</span><span class="es">Cancelar</span></button></div></div>
 
-                    <div id="s15-rejected" style="display:none;"><div style="background:#FEF2F2;border:1px solid #FECACA;border-radius:10px;padding:11px 13px;"><b style="color:#991B1B;">✕ <span class="en">Quote rejected</span><span class="es">Cotización rechazada</span></b><br><span style="font-size:11.5px;color:#B91C1C;"><span class="en">Shops notified. New quotes can be requested.</span><span class="es">Talleres notificados. Se pueden solicitar nuevas cotizaciones.</span></span><div style="margin-top:8px;"><button class="btn ghost" style="font-size:11.5px;padding:6px 12px;border-color:#FECACA;color:#991B1B;" onclick="s15ResetActions()"><span class="en">Request new quotes</span><span class="es">Solicitar nuevas cotizaciones</span></button></div></div></div>
+                    <div id="s12-rejected" style="display:none;"><div style="background:#FEF2F2;border:1px solid #FECACA;border-radius:10px;padding:11px 13px;"><b style="color:#991B1B;">✕ <span class="en">Quote rejected</span><span class="es">Cotización rechazada</span></b><br><span style="font-size:11.5px;color:#B91C1C;"><span class="en">Shops notified. New quotes can be requested.</span><span class="es">Talleres notificados. Se pueden solicitar nuevas cotizaciones.</span></span><div style="margin-top:8px;"><button class="btn ghost" style="font-size:11.5px;padding:6px 12px;border-color:#FECACA;color:#991B1B;" onclick="s12ResetActions()"><span class="en">Request new quotes</span><span class="es">Solicitar nuevas cotizaciones</span></button></div></div></div>
                   </div>
                 </div>
               </div>
             </div>
 
             <!-- ═══ QUOTES ═══ -->
-            <div id="s15-view-quotes" style="display:none;">
+            <div id="s12-view-quotes" style="display:none;">
               <div class="crumb"><span class="en">Quotes</span><span class="es">Cotizaciones</span></div>
               <h2><span class="en">Quotes pending approval</span><span class="es">Cotizaciones pendientes de aprobación</span></h2>
-              <div class="card" style="margin-bottom:14px;">
-                <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
-                  <h3 style="margin:0;">PI-2026-004521 · <span style="font-weight:400;font-family:Inter,sans-serif;font-size:13px;">Toyota Corolla 2019</span></h3>
-                  <span class="badge b-wait"><span class="en">Awaiting decision</span><span class="es">En espera de decisión</span></span>
-                </div>
-                <table style="margin-bottom:12px;">
-                  <thead><tr><th><span class="en">Shop</span><span class="es">Taller</span></th><th><span class="en">Parts</span><span class="es">Repuestos</span></th><th><span class="en">Labour</span><span class="es">M/obra</span></th><th><span class="en">Total</span><span class="es">Total</span></th><th><span class="en">Days</span><span class="es">Días</span></th><th></th></tr></thead>
+              <div class="card" style="padding:0;overflow:hidden;margin-bottom:14px;">
+                <table>
+                  <thead><tr>
+                    <th><span class="en">Case</span><span class="es">Caso</span></th>
+                    <th><span class="en">Vehicle</span><span class="es">Vehículo</span></th>
+                    <th><span class="en">Recommended shop</span><span class="es">Taller recomendado</span></th>
+                    <th><span class="en">Total</span><span class="es">Total</span></th>
+                    <th><span class="en">Days</span><span class="es">Días</span></th>
+                    <th><span class="en">Status</span><span class="es">Estado</span></th>
+                  </tr></thead>
                   <tbody>
-                    <tr style="background:#FBF5FE;">
+                    <tr style="cursor:pointer;background:#FBF5FE;" onclick="s12Nav('cases');s12OpenCase()">
+                      <td><b style="color:var(--purple);">PI-2026-004521</b></td>
+                      <td>Corolla 2019 · 3417 HK</td>
                       <td><b>Precision Auto Body</b><br><span style="font-size:10px;color:#93989F;">★ 4.8 · Kingston 5</span></td>
-                      <td>J$ 154,400</td><td>J$ 28,000</td><td><b>J$ 182,400</b></td><td>6</td>
-                      <td><span class="badge b-new"><span class="en">Recommended</span><span class="es">Recomendada</span></span></td>
-                    </tr>
-                    <tr>
-                      <td>Halfway Tree Motors<br><span style="font-size:10px;color:#93989F;">★ 4.5 · Kingston 10</span></td>
-                      <td>J$ 182,900</td><td>J$ 32,000</td><td>J$ 214,900</td><td>5</td><td></td>
+                      <td><b>J$ 182,400</b></td>
+                      <td>6</td>
+                      <td><span class="badge b-wait"><span class="en">Pending decision</span><span class="es">Pendiente decisión</span></span></td>
                     </tr>
                   </tbody>
                 </table>
-                <button class="btn cta" onclick="s15OpenCase();s15Nav('cases')"><span class="en">Go to case & approve →</span><span class="es">Ir al caso y aprobar →</span></button>
               </div>
               <div class="card" style="background:#F8F9FB;margin-bottom:0;text-align:center;padding:20px;">
                 <p style="font-size:12.5px;color:#93989F;"><span class="en">No other quotes pending. All other cases have been resolved.</span><span class="es">Sin otras cotizaciones pendientes. El resto de los casos están resueltos.</span></p>
               </div>
+              <p style="font-size:11.5px;color:#93989F;margin-top:10px;">💡 <span class="en">Click a row to open the case and approve or reject the quote.</span><span class="es">Haz clic en una fila para abrir el caso y aprobar o rechazar la cotización.</span></p>
             </div>
 
-            <!-- ═══ REPORTS ═══ -->
-            <div id="s15-view-reports" style="display:none;">
+<!-- ═══ REPORTS ═══ -->
+            <div id="s12-view-reports" style="display:none;">
               <div class="crumb"><span class="en">Reports</span><span class="es">Informes</span></div>
               <h2><span class="en">Inspection reports</span><span class="es">Informes de inspección</span></h2>
-              <div id="s15-report-empty" style="background:#fff;border:1px solid var(--border);border-radius:12px;padding:32px;text-align:center;margin-bottom:14px;">
+              <div id="s12-report-empty" style="background:#fff;border:1px solid var(--border);border-radius:12px;padding:32px;text-align:center;margin-bottom:14px;">
                 <div style="font-size:34px;margin-bottom:10px;">📋</div>
                 <p style="font-size:13px;color:#93989F;"><span class="en">No reports generated yet for PI-2026-004521.<br>Go to My cases → open the case → generate the inspection report.</span><span class="es">Aún no hay informes para PI-2026-004521.<br>Ve a Mis casos → abre el caso → genera el informe de inspección.</span></p>
-                <button class="btn ghost" style="margin-top:12px;" onclick="s15OpenCase();s15Nav('cases')"><span class="en">← Go to case</span><span class="es">← Ir al caso</span></button>
+                <button class="btn ghost" style="margin-top:12px;" onclick="s12Nav('cases');s12OpenCase()"><span class="en">← Go to case</span><span class="es">← Ir al caso</span></button>
               </div>
-              <div id="s15-report-file" style="display:none;">
+              <div id="s12-report-file" style="display:none;">
                 <div class="card" style="margin-bottom:14px;">
                   <div style="display:flex;align-items:center;gap:14px;">
                     <div style="width:48px;height:48px;border-radius:10px;background:#F3EBFB;display:flex;align-items:center;justify-content:center;font-size:22px;flex-shrink:0;">📄</div>
@@ -1329,45 +1534,45 @@ html[data-lang="en"] .es{display:none !important;}
         </div>
       </div>
 
-      <!-- LIGHTBOX s15 -->
-      <div id="s15-lb" onclick="s15CloseLb()" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.82);z-index:999;align-items:center;justify-content:center;">
+      <!-- LIGHTBOX s12 -->
+      <div id="s12-lb" onclick="s12CloseLb()" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.82);z-index:999;align-items:center;justify-content:center;">
         <div style="background:#fff;border-radius:14px;width:400px;max-width:92vw;overflow:hidden;" onclick="event.stopPropagation()">
           <div style="background:var(--navy);padding:10px 16px;display:flex;justify-content:space-between;align-items:center;">
-            <span id="s15-lb-title" style="font-size:12px;color:#B9C0CC;font-weight:600;"></span>
-            <span style="color:#fff;cursor:pointer;font-size:18px;" onclick="s15CloseLb()">×</span>
+            <span id="s12-lb-title" style="font-size:12px;color:#B9C0CC;font-weight:600;"></span>
+            <span style="color:#fff;cursor:pointer;font-size:18px;" onclick="s12CloseLb()">×</span>
           </div>
           <div style="height:180px;background:linear-gradient(135deg,#DDE3EC,#C9D2DF);display:flex;align-items:center;justify-content:center;font-size:36px;position:relative;">
-            <span id="s15-lb-icon"></span>
-            <div id="s15-lb-badge" style="position:absolute;bottom:10px;left:10px;font-size:9.5px;font-weight:700;padding:3px 10px;border-radius:10px;color:#fff;"></div>
+            <span id="s12-lb-icon"></span>
+            <div id="s12-lb-badge" style="position:absolute;bottom:10px;left:10px;font-size:9.5px;font-weight:700;padding:3px 10px;border-radius:10px;color:#fff;"></div>
           </div>
           <div style="padding:12px 16px;">
-            <b style="font-size:12.5px;color:var(--navy);" id="s15-lb-label"></b>
+            <b style="font-size:12.5px;color:var(--navy);" id="s12-lb-label"></b>
             <div style="margin-top:8px;">
               <div class="kv"><span>GPS</span><b>18.0179° N, 76.7927° W ✓</b></div>
-              <div class="kv"><span><span class="en">Severity</span><span class="es">Severidad</span></span><b id="s15-lb-sev"></b></div>
-              <div class="kv"><span><span class="en">Est. cost</span><span class="es">Costo est.</span></span><b id="s15-lb-cost"></b></div>
+              <div class="kv"><span><span class="en">Severity</span><span class="es">Severidad</span></span><b id="s12-lb-sev"></b></div>
+              <div class="kv"><span><span class="en">Est. cost</span><span class="es">Costo est.</span></span><b id="s12-lb-cost"></b></div>
             </div>
           </div>
           <div style="padding:0 16px 12px;display:flex;gap:8px;">
-            <button onclick="s15LbNav(-1)" class="btn ghost" style="flex:1;padding:8px;font-size:12px;">←</button>
-            <button onclick="s15LbNav(1)"  class="btn ghost" style="flex:1;padding:8px;font-size:12px;">→</button>
+            <button onclick="s12LbNav(-1)" class="btn ghost" style="flex:1;padding:8px;font-size:12px;">←</button>
+            <button onclick="s12LbNav(1)"  class="btn ghost" style="flex:1;padding:8px;font-size:12px;">→</button>
           </div>
         </div>
       </div>
 
       <script>
-        var S15_PHOTOS = [
+        var S12_PHOTOS = [
           { en:"Front-left damage · Toyota Corolla A",  es:"Daño frontal izq. · Toyota Corolla A", icon:"🚗", sev:"HIGH", sevColor:"#EF4444", cost:"J$ 122,900" },
           { en:"Bumper detail · Toyota Corolla A",       es:"Detalle bumper · Toyota Corolla A",    icon:"🔧", sev:"HIGH", sevColor:"#EF4444", cost:"J$ 31,500"  },
           { en:"Scene · Constant Spring Rd",             es:"Escena · Constant Spring Rd",          icon:"🛣", sev:"—",   sevColor:"#4A4E69", cost:"—"           },
         ];
-        var _s15LbIdx = 0;
-        var _s15CaseOpen = false;
+        var _s12LbIdx = 0;
+        var _s12CaseOpen = false;
 
-        function s15Nav(view) {
+        function s12Nav(view) {
           ["cases","quotes","reports"].forEach(function(v){
-            document.getElementById("s15-view-"+v).style.display = v===view ? "block" : "none";
-            var nav = document.getElementById("s15-nav-"+v);
+            document.getElementById("s12-view-"+v).style.display = v===view ? "block" : "none";
+            var nav = document.getElementById("s12-nav-"+v);
             if(nav){ nav.classList.toggle("on", v===view); }
           });
           var urls = {
@@ -1375,70 +1580,71 @@ html[data-lang="en"] .es{display:none !important;}
             quotes:  "portal.platforminsurance.com/adjuster/quotes",
             reports: "portal.platforminsurance.com/adjuster/reports"
           };
-          document.getElementById("s15-url").textContent = "🔒 " + urls[view];
+          document.getElementById("s12-url").textContent = "🔒 " + urls[view];
         }
-        function s15OpenCase(){
-          _s15CaseOpen = true;
-          document.getElementById("s15-cases-list").style.display = "none";
-          document.getElementById("s15-case-detail").style.display = "block";
-          document.getElementById("s15-url").textContent = "🔒 portal.platforminsurance.com/adjuster/cases/PI-2026-004521";
+        function s12OpenCase(){
+          _s12CaseOpen = true;
+          document.getElementById("s12-cases-list").style.display = "none";
+          document.getElementById("s12-case-detail").style.display = "block";
+          document.getElementById("s12-url").textContent = "🔒 portal.platforminsurance.com/adjuster/cases/PI-2026-004521";
         }
-        function s15BackToList(){
-          document.getElementById("s15-case-detail").style.display = "none";
-          document.getElementById("s15-cases-list").style.display = "block";
-          document.getElementById("s15-url").textContent = "🔒 portal.platforminsurance.com/adjuster/cases";
+        function s12BackToList(){
+          document.getElementById("s12-case-detail").style.display = "none";
+          document.getElementById("s12-cases-list").style.display = "block";
+          document.getElementById("s12-url").textContent = "🔒 portal.platforminsurance.com/adjuster/cases";
         }
-        function s15Lb(i){ _s15LbIdx=i; s15LbRender(); document.getElementById("s15-lb").style.display="flex"; }
-        function s15LbRender(){
+        function s12Lb(i){ _s12LbIdx=i; s12LbRender(); document.getElementById("s12-lb").style.display="flex"; }
+        function s12LbRender(){
           var lang = document.documentElement.getAttribute("data-lang")||"en";
-          var p = S15_PHOTOS[_s15LbIdx];
-          document.getElementById("s15-lb-title").textContent = "PI-2026-004521 · " + (_s15LbIdx+1) + "/" + S15_PHOTOS.length;
-          document.getElementById("s15-lb-icon").textContent  = p.icon;
-          document.getElementById("s15-lb-label").textContent = p[lang];
-          document.getElementById("s15-lb-sev").innerHTML = "<span style='color:"+p.sevColor+";font-weight:700;'>"+p.sev+"</span>";
-          document.getElementById("s15-lb-cost").textContent = p.cost;
-          var badge = document.getElementById("s15-lb-badge");
+          var p = S12_PHOTOS[_s12LbIdx];
+          document.getElementById("s12-lb-title").textContent = "PI-2026-004521 · " + (_s12LbIdx+1) + "/" + S12_PHOTOS.length;
+          document.getElementById("s12-lb-icon").textContent  = p.icon;
+          document.getElementById("s12-lb-label").textContent = p[lang];
+          document.getElementById("s12-lb-sev").innerHTML = "<span style='color:"+p.sevColor+";font-weight:700;'>"+p.sev+"</span>";
+          document.getElementById("s12-lb-cost").textContent = p.cost;
+          var badge = document.getElementById("s12-lb-badge");
           badge.textContent = p.sev !== "—" ? p.sev : "SCENE";
           badge.style.background = p.sev==="HIGH" ? "#EF4444" : p.sev==="MED" ? "#F59E0B" : "#4A4E69";
         }
-        function s15LbNav(d){ _s15LbIdx=(_s15LbIdx+d+S15_PHOTOS.length)%S15_PHOTOS.length; s15LbRender(); }
-        function s15CloseLb(){ document.getElementById("s15-lb").style.display="none"; }
+        function s12LbNav(d){ _s12LbIdx=(_s12LbIdx+d+S12_PHOTOS.length)%S12_PHOTOS.length; s12LbRender(); }
+        function s12CloseLb(){ document.getElementById("s12-lb").style.display="none"; }
 
-        function s15GenReport(){
-          document.getElementById("s15-rpt-idle").style.display="none";
-          document.getElementById("s15-rpt-loading").style.display="block";
+        function s12GenReport(){
+          document.getElementById("s12-rpt-idle").style.display="none";
+          document.getElementById("s12-rpt-loading").style.display="block";
           var steps=[
             "⏳ <span class='en'>Compiling evidence…</span><span class='es'>Compilando evidencia…</span>",
             "📷 <span class='en'>Attaching 12 sealed files…</span><span class='es'>Adjuntando 12 archivos sellados…</span>",
             "📝 <span class='en'>Writing assessment summary…</span><span class='es'>Redactando resumen…</span>",
             "🔒 <span class='en'>Signing report digitally…</span><span class='es'>Firmando digitalmente…</span>"
           ];
-          var el = document.getElementById("s15-rpt-progress"); var t=0;
+          var el = document.getElementById("s12-rpt-progress"); var t=0;
           steps.forEach(function(s,i){ setTimeout(function(){ el.innerHTML=s; }, t); t+=750; });
           setTimeout(function(){
-            document.getElementById("s15-rpt-loading").style.display="none";
-            document.getElementById("s15-rpt-done").style.display="block";
-            document.getElementById("s15-report-empty").style.display="none";
-            document.getElementById("s15-report-file").style.display="block";
+            document.getElementById("s12-rpt-loading").style.display="none";
+            document.getElementById("s12-rpt-done").style.display="block";
+            document.getElementById("s12-report-empty").style.display="none";
+            document.getElementById("s12-report-file").style.display="block";
           }, t);
         }
-        function s15SelectShop(s){
-          document.getElementById("s15-row-prec").style.background = s==="prec" ? "#FBF5FE" : "";
-          document.getElementById("s15-row-half").style.background = s==="half" ? "#FBF5FE" : "";
+        function s12SelectShop(s){
+          document.getElementById("s12-row-prec").style.background = s==="prec" ? "#FBF5FE" : "";
+          document.getElementById("s12-row-half").style.background = s==="half" ? "#FBF5FE" : "";
         }
-        function s15Approve(){ document.getElementById("s15-quote-actions").style.display="none"; document.getElementById("s15-approve-confirm").style.display="block"; }
-        function s15ConfirmApprove(){ document.getElementById("s15-approve-confirm").style.display="none"; document.getElementById("s15-approved").style.display="block"; document.getElementById("s15-badge-quotes").style.display="none"; }
-        function s15Reject(){ document.getElementById("s15-quote-actions").style.display="none"; document.getElementById("s15-reject-form").style.display="block"; }
-        function s15ConfirmReject(){ document.getElementById("s15-reject-form").style.display="none"; document.getElementById("s15-rejected").style.display="block"; }
-        function s15CancelAction(){ document.getElementById("s15-approve-confirm").style.display="none"; document.getElementById("s15-reject-form").style.display="none"; document.getElementById("s15-quote-actions").style.display="block"; }
-        function s15ResetActions(){ document.getElementById("s15-rejected").style.display="none"; document.getElementById("s15-quote-actions").style.display="block"; }
+        function s12Approve(){ document.getElementById("s12-quote-actions").style.display="none"; document.getElementById("s12-approve-confirm").style.display="block"; }
+        function s12ConfirmApprove(){ document.getElementById("s12-approve-confirm").style.display="none"; document.getElementById("s12-approved").style.display="block"; document.getElementById("s12-badge-quotes").style.display="none"; }
+        function s12Reject(){ document.getElementById("s12-quote-actions").style.display="none"; document.getElementById("s12-reject-form").style.display="block"; }
+        function s12ConfirmReject(){ document.getElementById("s12-reject-form").style.display="none"; document.getElementById("s12-rejected").style.display="block"; }
+        function s12CancelAction(){ document.getElementById("s12-approve-confirm").style.display="none"; document.getElementById("s12-reject-form").style.display="none"; document.getElementById("s12-quote-actions").style.display="block"; }
+        function s12ResetActions(){ document.getElementById("s12-rejected").style.display="none"; document.getElementById("s12-quote-actions").style.display="block"; }
+
       </script>
     </div>
 
 <div class="screen" id="s13">
       <div class="stage-note">
-        <span class="en"><b>Screen 14 · Phase 2.</b> Repair shop — 2 sections: quotes (entry point) and work orders (result of approval). The progress log lives inside each work order, not in the sidebar.</span>
-        <span class="es"><b>Pantalla 16 · Fase 2.</b> Taller — 2 secciones: cotizaciones (punto de entrada) y órdenes de trabajo (resultado de la aprobación). El registro fotográfico vive dentro de cada orden, no en el sidebar.</span>
+        <span class="en"><b>Screen 13 · Phase 2.</b> Repair shop — 2 sections: quotes (entry point) and work orders (result of approval). The progress log lives inside each work order, not in the sidebar.</span>
+        <span class="es"><b>Pantalla 13 · Fase 2.</b> Taller — 2 secciones: cotizaciones (punto de entrada) y órdenes de trabajo (resultado de la aprobación). El registro fotográfico vive dentro de cada orden, no en el sidebar.</span>
       </div>
       <div class="pframe">
         <div class="ribbon"><span class="en">PHASE 2</span><span class="es">FASE 2</span></div>
@@ -1817,8 +2023,8 @@ html[data-lang="en"] .es{display:none !important;}
 
 <div class="screen" id="s14">
       <div class="stage-note">
-        <span class="en"><b>Screen 15 · Phase 3.</b> Self-managed police role — two entry points: join an existing incident (most common) or create a new one when the officer arrives first. All actions live inside the incident.</span>
-        <span class="es"><b>Pantalla 15 · Fase 3.</b> Rol policial autogestionado — dos puntos de entrada: unirse a un incidente existente (lo más común) o crear uno nuevo cuando el agente llega primero. Todas las acciones viven dentro del incidente.</span>
+        <span class="en"><b>Screen 14 · Phase 3.</b> Self-managed police role — two entry points: join an existing incident (most common) or create a new one when the officer arrives first. All actions live inside the incident.</span>
+        <span class="es"><b>Pantalla 14 · Fase 3.</b> Rol policial autogestionado — dos puntos de entrada: unirse a un incidente existente (lo más común) o crear uno nuevo cuando el agente llega primero. Todas las acciones viven dentro del incidente.</span>
       </div>
       <div class="pframe">
         <div class="ribbon f3"><span class="en">PHASE 3</span><span class="es">FASE 3</span></div>
@@ -2250,8 +2456,8 @@ html[data-lang="en"] .es{display:none !important;}
 
 <div class="screen" id="s15">
       <div class="stage-note">
-        <span class="en"><b>Screen 16 · MVP (minimum).</b> The back-office nobody asked for but the business can't run without: catalogs, officer verification queue, and per-country configuration — the multi-country architecture made visible.</span>
-        <span class="es"><b>Pantalla 18 · MVP (mínimo).</b> El back-office que nadie pidió pero sin el cual el negocio no opera: catálogos, cola de verificación de agentes, y configuración por país — la arquitectura multi-país hecha visible.</span>
+        <span class="en"><b>Screen 15 · MVP (minimum).</b> The back-office nobody asked for but the business can't run without: catalogs, officer verification queue, and per-country configuration — the multi-country architecture made visible.</span>
+        <span class="es"><b>Pantalla 15 · MVP (mínimo).</b> El back-office que nadie pidió pero sin el cual el negocio no opera: catálogos, cola de verificación de agentes, y configuración por país — la arquitectura multi-país hecha visible.</span>
       </div>
       <div class="pframe">
         <div class="ribbon mvp">MVP</div>
@@ -2311,8 +2517,8 @@ html[data-lang="en"] .es{display:none !important;}
 
 <div class="screen" id="s16">
       <div class="stage-note">
-        <span class="en"><b>Screen 17.</b> The commercial close: the full vision, delivered in fundable phases with clear outcomes. This is the slide where the buyer says yes to Phase 1 while seeing the whole journey.</span>
-        <span class="es"><b>Pantalla 19.</b> El cierre comercial: la visión completa, entregada en fases financiables con resultados claros. Esta es la lámina donde el comprador dice sí a la Fase 1 viendo el camino completo.</span>
+        <span class="en"><b>Screen 16.</b> The commercial close: the full vision, delivered in fundable phases with clear outcomes. This is the slide where the buyer says yes to Phase 1 while seeing the whole journey.</span>
+        <span class="es"><b>Pantalla 16.</b> El cierre comercial: la visión completa, entregada en fases financiables con resultados claros. Esta es la lámina donde el comprador dice sí a la Fase 1 viendo el camino completo.</span>
       </div>
       <div class="rm-wrap">
         <div class="rm-head">
@@ -2409,6 +2615,14 @@ function go(id, btn){
   document.querySelectorAll('.pnav button').forEach(function(b){b.classList.remove('active');});
   var target = btn || document.querySelector('.pnav button[data-s="'+id+'"]');
   if(target) target.classList.add('active');
+  // Reset portal sub-views on every entry so they always start at the list
+  if(id === 's12') {
+    if(typeof s12Nav === 'function') s12Nav('cases');
+    if(typeof s12BackToList === 'function') s12BackToList();
+  }
+  if(id === 's11') {
+    if(typeof s11BackToList === 'function') s11BackToList();
+  }
   window.scrollTo({top:0,behavior:'smooth'});
 }
 function setLang(l){
